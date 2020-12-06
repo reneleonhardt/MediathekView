@@ -98,7 +98,7 @@ public class ApplicationConfiguration {
         return ConfigHolder.INSTANCE;
     }
 
-    public static Configuration getConfiguration() {
+  public static XMLConfiguration getConfiguration() {
         return getInstance().config;
     }
 
